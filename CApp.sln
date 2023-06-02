@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CApp", "CApp.csproj", "{0ED87D4B-E4BB-4C56-B615-55D70738C241}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CApp.Console", "CApp.Console.csproj", "{0ED87D4B-E4BB-4C56-B615-55D70738C241}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CApp.Tests", "..\CApp.Tests\CApp.Tests.csproj", "{4FBDD72D-31F8-4B08-832B-3D444B3076EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0ED87D4B-E4BB-4C56-B615-55D70738C241}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0ED87D4B-E4BB-4C56-B615-55D70738C241}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0ED87D4B-E4BB-4C56-B615-55D70738C241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FBDD72D-31F8-4B08-832B-3D444B3076EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FBDD72D-31F8-4B08-832B-3D444B3076EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FBDD72D-31F8-4B08-832B-3D444B3076EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FBDD72D-31F8-4B08-832B-3D444B3076EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
