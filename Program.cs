@@ -4,6 +4,10 @@ int key = 2222;
 var outPut = objSearch.BinarySearch(iArray, key);
 Console.WriteLine($"output value = {outPut}");
 
+int[] arrUnSorted = { 800, 11, 50, 771, 649, 770, 240, 9 };
+objSearch.BubbleSort2(arrUnSorted);
+Console.ReadLine();
+
 int numberFact = 5;
 var fact = objSearch.Factorial(numberFact);
 Console.WriteLine($"Factorial of {numberFact} =  {fact.ToString()}");

@@ -64,7 +64,53 @@
             Console.WriteLine(str);
         }
     }
+    public void BubbleSort(int[] inputUnSortedArray)
+    {
+        int[] arr = inputUnSortedArray;
 
+        int temp = 0;
+
+        for (int i = 0; i < arr.Length; i++)
+        {
+            for (int j = 0; j < arr.Length - 1; j++)
+            {
+                if (arr[j] > arr[j + 1])
+                {
+                    temp = arr[j + 1];
+                    arr[j + 1] = arr[j];
+                    arr[j] = temp;
+                }
+            }
+        }
+
+        for (int i = 0; i < arr.Length; i++)
+            Console.Write(arr[i] + " ");
+    }
+    public void BubbleSort2(int[] array)
+    {
+        int length = array.Length;
+
+        int temp = array[0];
+
+        for (int i = 0; i < length; i++)
+        {
+            for (int j = i + 1; j < length; j++)
+            {
+                if (array[i] > array[j])
+                {
+                    temp = array[i];
+
+                    array[i] = array[j];
+
+                    array[j] = temp;
+                }
+            }
+        }
+        for (int index = 0; index < array.Length; index++)
+            Console.Write(array[index] + " ");
+
+
+    }
     public int Factorial(int num)
     {
         if (num == 0)
